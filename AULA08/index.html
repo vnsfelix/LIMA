@@ -57,7 +57,7 @@
             <br>
 
             <label for="linguagem">Linguagem favorita:</label>
-            <input type="text" name="linguagem" id="linguagem" placeholder="Digite sua linguagem favorita" list="Linguagem">
+            <input type="text" name="linguagem" id="linguagem" placeholder="Digite sua linguagem favorita" list="linguagens">
             <datalist id="linguagens">
                 <option value="CSS">
                 <option value="HTML">
@@ -65,9 +65,27 @@
                 <option value="JavaScript">
                 <option value="Java">
                 <option value="C++">
-            </datalist>
+            </datalist><br>
 
+            <label for="contato">Contato:</label>
+            <address>
+                Email: vfelix2022santos@gmail.com <br>
+                Telefone: (11) 975144024
+            </address><br>
+
+            <fieldset>
+                <details>
+                    <legend>Outras Informações</legend>
+                    <summary>O que é um formulário?</summary>
+                    <p>Um formulário é um conjunto de elementos que permitem que os usuários forneçam informações a um site ou aplicação.</p>
+                </details>
+
+                <p>O campo <mark>senha</mark> precisa ter pelo menos 8 caracteres.</p>
+                <label for="hora-cadastro">Hora preferida para contato:</label>
+                <input type="time" name="hora-cadastro" id="hora-cadastro">
+            </fieldset>
         </fieldset>
+        <button type="submit">Cadastrar</button>
     </form>
 </body>
 </html>
