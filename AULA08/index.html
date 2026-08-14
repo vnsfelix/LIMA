@@ -50,11 +50,23 @@
 
         <fieldset>
             <legend>Detalhes Adicionais</legend>
-            <label for="telefone">Telefone:</label>
-            <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+            <label for="bio">Sobre Você:</label>
+            <textarea 
+            name="bio" id="bio" rows="3" placeholder="Conte-nos um pouco sobre você...">
+            </textarea>
             <br>
-            <label for="endereco">Endereço:</label>
-            <textarea name="endereco" id="endereco" placeholder="Digite seu endereço"></textarea>
+
+            <label for="linguagem">Linguagem favorita:</label>
+            <input type="text" name="linguagem" id="linguagem" placeholder="Digite sua linguagem favorita" list="Linguagem">
+            <datalist id="linguagens">
+                <option value="CSS">
+                <option value="HTML">
+                <option value="Python">
+                <option value="JavaScript">
+                <option value="Java">
+                <option value="C++">
+            </datalist>
+
         </fieldset>
     </form>
 </body>
