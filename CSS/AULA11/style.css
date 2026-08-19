@@ -5,16 +5,6 @@ body {
     font-optical-sizing: auto;
 }
 
-h1 {
-    color: rgb(255, 12, 12);
-    font-size: 2em;
-}
-
-h2 {
-    color: rgb(255, 12, 12);
-    font-size: 1.5em;
-}
-
 /* SELETORES */
 
 /* Própria tag HTML */
@@ -24,9 +14,13 @@ h2 {
 /* Atributo HTML que adiciona um identificador único na tag. Esse identificador pode ser usado para estilizar elementos específicos: */
 #Paragráfo1 {
     color: blueviolet;
-    font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+  font-size: 17px;
   font-style: normal;
+}
 
+/* Classes */
+/* Atributos HTML que adicionam um identificador reutilizavel na tag. Essa classe pode ser usada para estilizar elementos específicos: */
+.title {
+    color: rgb(255, 0, 0);
 }
