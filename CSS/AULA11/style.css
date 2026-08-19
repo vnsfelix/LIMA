@@ -24,4 +24,9 @@ h2 {
 /* Atributo HTML que adiciona um identificador único na tag. Esse identificador pode ser usado para estilizar elementos específicos: */
 #Paragráfo1 {
     color: blue;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
 }
