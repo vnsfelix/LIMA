@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(44, 43, 43, 0.7);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    color: rgb(255, 12, 12);
+    font-size: 2em;
+}
+
+h2 {
+    color: rgb(255, 12, 12);
+    font-size: 1.5em;
+}
+
+/* SELETORES */
+
+/* Própria tag HTML */
+/* h1, p, span, a */
+
+/* id */
+/* Atributo HTML que adiciona um identificador único na tag. Esse identificador pode ser usado para estilizar elementos específicos: */
+#Paragráfo1 {
+    color: blue;
+}
