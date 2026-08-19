@@ -1,3 +1,42 @@
 body {
-    background-color: red;
+    /* Nome da cor */
+    /* background-color: red; */
+    
+    /* Hexadecimal */
+    /* background-color: #404040; */
+
+    /* RGB */
+    /* background-color: rgb(64, 64, 64); */
+
+    /* RGB COM TRANSPARENCIA */
+
+    background-color: rgba(64, 64, 64, 0.7);
+    color: white;
 }
+
+h1 {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+h2 {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+/* ---------------------------------------------------------- */
+/* PX (pixels) é uma unidade de medida fixa. O tamanho sempre será o mesmo, independentemente da resolução da tela. */
+
+/* 2EM - O dobro do tamanho da fonte atual */
+
+/* 120% - 20% maior que o tamanho da fonte padrão */
+
+/* 5VW - 5% da largura da viewport / isso faz com que o tamanho da fonte se ajuste à largura da tela */
+/* ---------------------------------------------------------- */
+
