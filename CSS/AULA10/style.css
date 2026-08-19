@@ -28,6 +28,13 @@ p {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 120%;
+    /* Espacamento entre linhas */
+    line-height: 1.5;
+}
+
+span {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
 }
 
 /* ---------------------------------------------------------- */
