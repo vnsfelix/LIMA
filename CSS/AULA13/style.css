@@ -29,8 +29,19 @@ h2 {
 /* Ocupa apenas o espaço necessário (ex: span, a) */
 .inline {
     display: inline;
-    background-color: lightgreen;
+    background-color: rgba(255, 109, 109, 0.877);
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* =========== INLINE BLOCK ============= */
+/* Ocupa apenas o espaço necessário, mas permite definir largura e altura (ex: img) */
+.inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    background-color: rgba(255, 109, 109, 0.877);
     padding: 15px;
     margin: 5px;
-    border: 2px solid green;
+    border: 2px solid rgb(0, 0, 0);
 }
